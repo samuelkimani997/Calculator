@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM(Document Object Model)</title>
+</head>
+<body>
+    <h1>DOM(Document Object Model)</h1>
+    <h2>Event Listeners</h2>
+<!-- <p>
+    :::Function that awaits for an eventto occurs on a specified element then executes a callback function
+</p>
+<h2>Key Concepts</h2>
+<p>
+    ::: Element, 
+</p>
+<p>
+    <h3>Syntax</h3>
+    <ul>
+        <li><b>Event</b> types: Click, Mouse, Keypress</li>
+        <li><b>Target element</b>: HTMl elements that you want to monitor for events</li>
+        <li><b>Callback function</b>: function to be executed when the event occurs</li>
+    </ul>
+</p> -->
+<h2>Example</h2>
+<!-- <button type="button" id="press">press here</button>
+<button type="button"  id="hatari">DANGER!!!</button>
+<hr>
+<h3>on click event</h3>
+
+<button type="button" onclick="clickme()">HERE!!!</button> -->
+
+<hr>
+<h2>Getting input value</h2>
+<div>
+    <h2>Calculator</h2>
+      
+<!-- <input type="text" id="Mass" placeholder="Enter mass in kgs">
+<input type="text" id="Height" placeholder="Enter height in  MTRs"> -->
+<!-- <button>calculate</button>   -->
+</div>
+
+<h1> change event</h1>
+<input type="text" placeholder="write sth">
+<p></p>
+
+<!-- <script>
+    const input = document.querySelector('input')
+    const p = document.querySelector('p')
+
+    input.addEventListener('input', e => {
+        p.textContent = e.target.value
+    })
+</script> -->
+
+<h1> blur event</h1>
+<input type="text" placeholder="write sth">
+<p></p>
+
+<script>
+    const input = document.querySelector('input')
+    const p = document.querySelector('p')
+
+    input.addEventListener('input', e => {
+        p.textContent = `This is required`
+        p.style color = red
+    })
+</script>
+
+
+<!-- <h2>Key event: press anykey</h2>
+<script>
+    document.body.addEventListener(`keypress`, e => {
+        alert(e.keycode)
+    })
+</script> -->
+
+<!-- // <script>
+//     const clickme = () =>{
+//         alert('You should be there')
+//     }
+</script>  -->
+    <script src="index.js"></script>
+</body>
+</html>
